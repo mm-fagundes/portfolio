@@ -32,9 +32,16 @@
     
 }
 
-.subtexto h1,p{
+.subtexto h1{
     width: 60%;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtexto h2{
+    line-height: 0.9;
+}
+.subtexto p{
+    width: 80%;
 }
 
 .subtexto{
@@ -49,7 +56,6 @@
 .texto h1, p{
     color: lightgray;
     margin-top: 10px;
-    
 }
 
 .titulo{
@@ -57,7 +63,7 @@
     width: 100%;
     border-bottom: 1px solid white;
     margin-bottom: 10px;
-    border: 1px solid black;
+    
 }
 
 .titulo h1{

@@ -5,28 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-
-    <nav>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled">Disabled</a>
+    
+    <div class="nave">
+        <nav>
+            <nav class="navbar navbar-expand-lg navbar-dark nave">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled">Disabled</a>
+                </div>
             </div>
-        </div>
-        </nav>        
-    </nav>
+            </nav>        
+        </nav>
+    </div>
+
 
     <div class="sobremim">
         <div class="foto">
@@ -35,8 +41,16 @@
             </div>
             <div class="parte2">
                     <h1>Esse sou eu!</h1>
-                    <img src="imgs/eu.jpeg" alt="Eu" width="70%">    
+                    <a href="https://www.linkedin.com/in/mateus-fagundes07/">
+                    <div class="img-container">
+                            <img id="foto-perfil" src="imgs/eu.jpeg" alt="Eu" width="100%">   
+                            <img id="icone-linkedin" src="imgs/icon-linkedin.png" alt="Linkedin" width="50px%">
+                    </div> 
+                    </a>
+                    <div class="espaco"></div>
+                    
             </div>
+            <div class="parte3"></div>
         </div>
         <div class="texto">
             <div class="subtexto">
@@ -46,10 +60,8 @@
                 </div>
                 <div class="legenda">
                     <h1>Sobre Mim</h1>
-                    <p>Atualmente curso Desenvolvimento de Sistemas na ETEC de São José dos Campos. Desde criança, sou fascinado por tecnologia, o que me 
-                    motivou a seguir uma carreira na área. Tenho me dedicado ao aprendizado contínuo, com foco principal em desenvolvimento web, mas também 
-                    explorando outras vertentes como aplicações desktop e mobile. Busco uma oportunidade de estágio ou vaga júnior que me permita entrar no mercado de trabalho, aplicar meus conhecimentos na prática e 
-                    continuar evoluindo como desenvolvedor.
+                    <p>Curso Desenvolvimento de Sistemas na ETEC de São José dos Campos. Desde criança, sou fascinado por tecnologia, o que me motivou a seguir essa carreira. Tenho me dedicado principalmente ao desenvolvimento web,
+                        mas também exploro aplicações desktop e mobile. Busco estágio ou vaga júnior para aplicar meus conhecimentos e crescer como desenvolvedor.
                     </p>
                 </div>
             </div>

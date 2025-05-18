@@ -25,12 +25,15 @@
 
 #foto-perfil{
     grid-area: 1/1;
+    transition: 0.5s ease;
 
 }
 
 #foto-perfil:hover{
     filter: brightness(0.5) blur(3px);
     transition: 0.2s;
+    transform: scale(1.02);
+    transition: 0.5s;
 }
 
 .img-container{
@@ -42,6 +45,7 @@
     display: none;
     height: 40%;
 }
+
 
 .img-container:hover #icone-linkedin{
     display: block;
@@ -103,18 +107,31 @@
     font-family: "Montserrat", sans-serif;
     color: lightgray;
     text-align: center;
+    transition: 0.5s ease;
+}
+
+.titulo h1{
+    transform: scale(1.02);
+    transition: 0.5s;
 }
 
 .titulo h2{
-    font-size: 30px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.titulo h2{
+    font-size: 24.5px;
     margin-top: 7px;
     color: lightgray;
     font-family: "Open Sans", sans-serif;
+    transition: 0.5s ease;
 }
 
 .legenda{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 10px;
 }
 
@@ -122,11 +139,27 @@
     color: lightgray;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
+    transition: 0.5s ease;
+}
+
+.legenda p:hover{
+    transform: scale(1.01);
+    transition: 0.5s;
+
+}
+
+.legenda h1:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
 }
 
 .legenda p{
     color: lightgray;
-    font-family: "Open Sabs", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    transition: 0.5s ease;
+    width: 72%;
+    font-size: 22.5px;
+    text-align: center;
 }
 
 .parte1{
@@ -148,6 +181,12 @@
     font-size: 55px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
+    transition: 0.5s ease;
+}
+
+.parte2 h1:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
 }
 
 .parte3{
